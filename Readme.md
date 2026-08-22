@@ -1,4 +1,4 @@
-# ☕ Java Learning
+# ☕ Java 
 
 A structured repository documenting my journey of learning **Java**, from fundamentals to **Object-Oriented Programming, Data Structures & Algorithms, and LeetCode problem solving**.
 
