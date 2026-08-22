@@ -1,5 +1,6 @@
-public class TestRunner{
-    public static void main (string [] args){
-    System.out.println("Hello World")
+public class testrunner {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");
     }
 }
