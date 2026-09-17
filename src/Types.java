@@ -1,8 +1,8 @@
-public class types {
+public class Types {
     public static void main(String[] args) {
-        // Types
-        // Primitive data Types : Byte-1 ,short-2 , int-4 , long - 8 , float -4 ,double-8
-        //char-2,a,b,c,d   , boolean -1 true/false
+//       ###Types
+//       ##Primitive data Types : Byte-1 ,short-2 , int-4 , long - 8 , float -4 ,double-8
+//       #char-2,a,b,c,d   , boolean -1 true/false
 
         byte age = 30;
         int number = 1234657890;
