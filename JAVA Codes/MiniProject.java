@@ -7,7 +7,7 @@ public static void main(String[] args) {
     int myNumber = (int)(Math.random()*100);
     int userNumber = 0;
     do{
-        System.out.println("Gues my Number: ");
+        System.out.print("Gues my Number (1-100): ");
         userNumber = sc.nextInt();
         if(userNumber == myNumber){
             System.out.println("Congrates...! you guesd the Right Number ");
