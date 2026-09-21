@@ -1,3 +1,4 @@
+
 import org.w3c.dom.ls.LSOutput;
 
 class pen {
@@ -17,14 +18,13 @@ class Student {
         String name;
         int age;
         int id;
-        String Address;
+        String address;
 
-       public void write() {
-        System.out.println("Add Details of Student");
-    }
-
-    public void printname(){
+    public void printinfo(){
         System.out.println(this.name);
+        System.out.println(this.age);
+        System.out.println(this.id);
+        System.out.println(this.address);
     }
     }
 
@@ -44,6 +44,12 @@ public class oops {
         pen1.printColor();
         pen2.printColor();
 
-        Student1.name();
+        Student s1 = new Student();  //
+        s1.name="prince";
+        s1.age=21;
+        s1.id=423154;
+        s1.address="Ashirwadnagar kamtghar bhiwandi";
+
+        s1.printinfo();
     }
 }
