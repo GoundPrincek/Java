@@ -44,7 +44,7 @@ public class oops {
         pen1.printColor();
         pen2.printColor();
 
-        Student s1 = new Student();  //
+        Student s1 = new Student();  // Constructors part
         s1.name="prince";
         s1.age=21;
         s1.id=423154;
