@@ -2,7 +2,7 @@
 class data{
     String name;
     int age;
-    public void printinfo(String name){
+    public void printinfo(String name, int age){
         System.out.println(this.name);
     }
 }
@@ -17,6 +17,6 @@ public class polymorphisom {
      s1.name="Prince";
      s1.age=21;
 
-     s1.printinfo(s1.name,s1.age);
+     s1.printinfo(s1.name, s1.age);
     }
 }
